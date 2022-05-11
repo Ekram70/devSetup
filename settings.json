@@ -1,11 +1,15 @@
 {
   // Theme
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
 
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
@@ -15,5 +19,10 @@
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
