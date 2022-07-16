@@ -6,9 +6,10 @@
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "requireConfigFile": false
   },
   "env": {
     "browser": true,
@@ -37,7 +38,7 @@
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 100,
-        "tabWidth": 4,
+        "tabWidth": 2,
         "semi": true,
         "endOfLine": "auto"
       }
